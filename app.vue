@@ -11,7 +11,7 @@
           </div>
           
           <!-- Main Content -->
-          <div class="col-span-12 bg-blue-300 md:col-span-8 xl:col-span-6 ">
+          <div class="col-span-12  md:col-span-8 xl:col-span-6 ">
             <button  class="px-4 py-2 text-xs font-bold text-white bg-black dark:text-black dark:bg-white rounded-full" @click="darkMode = !darkMode">{{ darkMode ? "dark" : "normal" }}</button> 
             <router-view/>
           </div>
